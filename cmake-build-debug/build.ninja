@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/wangqiang/Desktop/tdpool_optimization/cmake-build-d
 
 build cmake_object_order_depends_target_tdpool_optimization: phony || .
 
-build CMakeFiles/tdpool_optimization.dir/threadpool.cpp.o: CXX_COMPILER__tdpool_optimization_unscanned_Debug /Users/wangqiang/Desktop/tdpool_optimization/threadpool.cpp || cmake_object_order_depends_target_tdpool_optimization
-  DEP_FILE = CMakeFiles/tdpool_optimization.dir/threadpool.cpp.o.d
+build CMakeFiles/tdpool_optimization.dir/test.cpp.o: CXX_COMPILER__tdpool_optimization_unscanned_Debug /Users/wangqiang/Desktop/tdpool_optimization/test.cpp || cmake_object_order_depends_target_tdpool_optimization
+  DEP_FILE = CMakeFiles/tdpool_optimization.dir/test.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/tdpool_optimization.dir
   OBJECT_FILE_DIR = CMakeFiles/tdpool_optimization.dir
@@ -63,7 +63,7 @@ build CMakeFiles/tdpool_optimization.dir/threadpool.cpp.o: CXX_COMPILER__tdpool_
 #############################################
 # Link the executable tdpool_optimization
 
-build tdpool_optimization: CXX_EXECUTABLE_LINKER__tdpool_optimization_Debug CMakeFiles/tdpool_optimization.dir/threadpool.cpp.o
+build tdpool_optimization: CXX_EXECUTABLE_LINKER__tdpool_optimization_Debug CMakeFiles/tdpool_optimization.dir/test.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.4.sdk
   OBJECT_DIR = CMakeFiles/tdpool_optimization.dir
   POST_BUILD = :

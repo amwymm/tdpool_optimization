@@ -3,4 +3,5 @@ project(tdpool_optimization)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(tdpool_optimization threadpool.cpp threadpool.h)
+add_executable(tdpool_optimization threadpool.h
+        test.cpp)
